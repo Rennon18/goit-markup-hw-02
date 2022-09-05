@@ -1,0 +1,190 @@
+body {
+    font-family: Roboto, sans-serif;   
+    color: #212121;
+}
+
+/*header*/
+
+.page-header {
+    background-color: #FFFFFF;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;  
+}
+.logo {
+    font-family: Raleway, cursive;
+    color: #2196F3;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
+
+}
+.logo-header {
+    color: #000000;
+    
+}
+
+.link {
+    color: #212121;
+    font size: 14px
+    line height: 1.14;
+    font-weight: 500;
+}
+
+.link:hover ,
+.link:focus {
+    color: #2196F3;
+} 
+
+.contacts {
+    color: #757575;
+    font size: 14px
+    line height: 1.14;
+    font-weight: 500;
+}
+
+.contacts:hover ,
+.contacts:focus {
+    color: #2196F3;
+}
+
+/*button*/
+
+.button-hero {
+    font-family: inherit;
+    font-weight: 700;
+    font size: 16px;
+    line height: 1.9;
+    margin-left: 692px;
+    margin-right: 692px;
+    margin-top: 200px;
+    margin-bottom: 350px;
+    
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;    
+}
+
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button {
+    font-family: inherit;
+}
+
+
+/*hero section*/
+
+.hero-section {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+
+.title-header {
+    margin: auto;
+    text-align:center;    
+     
+    color:  #FFFFFF;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line height: 1.36;
+}
+
+
+
+
+/*section ckill company. soft skill. work */
+
+.skill-company {
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+}
+
+.h3-features {
+    color: #212121;
+    font size: 14px;
+    line height: 1.14;
+    font-weight: 700;
+}
+
+.p-features {
+    color: #757575
+    font size: 14px
+    line height: 1.7;
+    font-weight: 400;
+}
+
+.work {
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;            
+    left: 0px;
+    top: 1446px;
+}
+
+.h2-work {
+    font-weight: 700;
+    font size: 36px;
+    line height: 1.16;
+}
+
+.team {
+    background-color: #F5F4FA;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1446px;
+}
+
+.h3-team {
+    color: #212121;
+    font size: 16px;
+    line height: 1.18;
+    font-weight: 500;
+}
+
+
+
+/*footer*/
+
+.footer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+}
+
+
