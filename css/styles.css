@@ -1,0 +1,209 @@
+:root {
+    --main-bgd-color: #ffffff;
+    --footer-bgd-color: #2F303A;
+    --title-color: #212121;
+    --link-color: #757575;
+    --h1-color: #ffffff;
+    --link-selection-button: #2196f3;   
+}
+  
+body {
+    color: var(--title-color);
+    background-color: var(--main-bgd-color);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+}
+
+
+/*header*/
+
+.page-header {
+    
+}
+.logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: Raleway, cursive;
+    color: var(--link-selection-button)
+}
+
+.logo-header {
+    font-family: Raleway, cursive;
+    color: var(--title-color)
+}
+
+.link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--title-color) 
+}
+
+.link:hover ,
+.link:focus {
+    color: var(--link-selection-button)
+} 
+
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--link-color)   
+}
+
+.contacts:hover ,
+.contacts:focus {
+    color: var(--link-selection-button)
+}
+
+/*button*/
+
+.button-hero {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    letter-spacing: 0.06em;
+    color: var(--h1-color);
+    background-color: var(--link-selection-button)   
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    cursor: pointer;
+    background-color: var(--link-selection-button)   
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--link-selection-button);
+    color: var(--h1-color);
+    cursor: pointer;
+}
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    font-family: inherit;
+}
+
+/*hero section*/
+
+.hero-section {
+    background-color: var(--footer-bgd-color);
+}
+
+.title-header {  
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:  var(--h1-color);
+}
+
+.hidden {
+    display: none;
+}
+
+/*section ckill company. soft skill. work */
+
+.skill-company {
+    
+}
+
+.h3-features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--title-color);
+    
+}
+
+.p-features {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--link-color)
+    
+}
+
+.work {
+  
+}
+
+.h2-work {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--title-color);
+}
+
+.team {
+  
+}
+
+.h3-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--title-color);
+    
+}
+
+p.team {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--link-color);
+}
+
+/*portfolio*/
+
+.portfolio-link {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.p-portfolio {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--link-color);
+}
+
+/*footer*/
+
+.footer {
+    background-color: var(--footer-bgd-color);
+}
+
+.logo-footer {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-family: Raleway, cursive;
+    color: var(--h1-color)
+}
+
+.contacts-footer {
+    font-size: 14px;
+    line-height: 1.17;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-footer:hover,
+.contacts-footer:focus {
+    color: var(--link-selection-button);
+}
+
+.map-link {
+    font-size: 14px;
+    line-height: 1.17;
+    color: var(--h1-color);
+}
